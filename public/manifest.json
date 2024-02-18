@@ -1,0 +1,48 @@
+{
+    "name": "Just Video",
+    "short_name": "Just Video",
+    "description": "Just a video player",
+    "background_color": "#29abe2",
+    "display": "standalone",
+    "lang": "zh-CN",
+    "icons": [
+        {
+            "src": "icons/1x/Just-Video.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "icons/0.5x/Just-Video@0.5x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "icons/0.75x/Just-Video@0.75x.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "icons/SVG/Just-Video.svg",
+            "sizes": "192x192"
+        }
+    ],
+    "scope": "/",
+    "start_url": ".",
+    "theme_color": "#29abe2",
+    "file_handlers": [
+        {
+            "action": "/",
+            "accept": {
+                "video/mp4": [".mp4"],
+                "video/mpeg": [".mpeg"],
+                "video/ogg": [".ogg"],
+                "video/mp2t": [".ts"],
+                "video/webm": [".webm"],
+                "video/x-flv": [".flv"],
+                "video/x-matroska": [".mkv"],
+                "video/x-msvideo": [".avi"],
+                "video/quicktime": [".mov"]
+            }
+        }
+    ]
+}
