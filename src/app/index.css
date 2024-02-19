@@ -1,0 +1,25 @@
+::-webkit-media-controls {
+    display: none !important;
+}
+
+:root {
+    user-select: none;
+}
+
+.control-btn {
+    @apply w-12 h-12 bg-slate-500 rounded-xl shadow-lg opacity-75 mr-4 flex justify-center items-center transition-all contrast-125 drop-shadow-lg
+}
+.control-btn.hoverable {
+    @apply hover:bg-slate-700
+}
+.control-btn:last-child {
+    @apply mr-0
+}
+
+.control-video-panel {
+    @apply w-1/2 h-12 bg-slate-500 rounded-xl opacity-75 flex justify-start mx-3 items-center transition-all contrast-125 overflow-hidden
+}
+
+.control-speed-panel {
+    @apply w-24 h-12 bg-slate-500 rounded-xl opacity-75 mr-4 flex justify-center items-center transition-all contrast-125
+}
