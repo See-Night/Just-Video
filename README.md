@@ -66,7 +66,7 @@ The frontend branch is Just a just-video front-end repository that allows users 
 
 Then you can access Just-Video through your browser and install it as a PWA application.
 
-![Just-Video](./images/Just-Video.png)
+![Just-Video-cut](./images/Just-Video-cut.png)
 
 <small>Just-Video sets the file association, you can directly select the opening method of the video file, or drag the video file into the Just-Video to play.</small>
 
